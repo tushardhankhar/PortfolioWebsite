@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./IntroContainer.css";
 import { TypeAnimation } from "react-type-animation";
+import BasicModal from "../Modal/Modal";
+import ContactForm from "../ContactForm/ContactForm";
 
 export default function IntroContainer() {
+ const[openModal,setOpenModal] = useState(false);
+ const handleClose = () => setOpenModal(false);
+
   return (
     <div id="introContainer">
       <div>
@@ -39,11 +44,14 @@ TUSHAR DHANKHAR`}
           </a>{" "}
           focused on building Progressive Web Apps on ReactJS.
         </div>
-        <button id="getInTouch">Get In Touch</button>
+        <button id="getInTouch" onClick={() => setOpenModal(true)}>Get In Touch</button>
       </div>
       <div id="imageContainer">
         <img src={require("../../assests/zoom_dp.jpg")} alt=""></img>
       </div>
+      <BasicModal openModal={openModal} handleClose={handleClose}>
+        <ContactForm />
+      </BasicModal>
     </div>
   );
 }
