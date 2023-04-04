@@ -1,0 +1,20 @@
+#sideBarContainer{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+a{
+    cursor: pointer;
+}
+
+a:hover{
+    transform: translateY(-5px);
+}
+
+#horizontalLine{
+    border-left: 6px solid #ff5b2e;
+    height: 200px;
+}

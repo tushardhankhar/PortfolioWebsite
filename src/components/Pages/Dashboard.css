@@ -1,0 +1,9 @@
+#sideBar{
+    position: sticky;
+    bottom: 0%;
+    width: 100px;
+}
+
+#dashboardContainer{
+    background-color: #FFFAF5;
+}
