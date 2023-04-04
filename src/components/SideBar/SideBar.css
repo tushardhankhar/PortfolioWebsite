@@ -14,7 +14,7 @@ a:hover{
     transform: translateY(-5px);
 }
 
-#horizontalLine{
+#VerticalLine{
     border-left: 6px solid #ff5b2e;
     height: 200px;
 }

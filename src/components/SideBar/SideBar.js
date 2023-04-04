@@ -22,7 +22,7 @@ export default function SideBar() {
       <a href="https://twitter.com/home" target="_blank" rel="noreferrer">
         <SlSocialTwitter size={35} color="#ff5b2e" />
       </a>
-      <div id="horizontalLine"></div>
+      <div id="VerticalLine"></div>
     </div>
   );
 }
