@@ -81,3 +81,15 @@ button:active {
   color: #000958;
   margin-bottom: 2rem;
 }
+
+.errorContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.errorMessage{
+  padding-left: 1.2rem;
+  font-size: 0.8rem;
+  color: red;
+}
