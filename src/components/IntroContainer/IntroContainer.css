@@ -29,8 +29,8 @@
 }
 
 img {
-  width: 400px;
-  height: 500px;
+  width: 25rem;
+  height: 31rem;
   object-fit: cover;
   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
   filter: blur(2px);
