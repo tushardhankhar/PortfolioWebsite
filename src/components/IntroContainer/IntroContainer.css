@@ -1,6 +1,5 @@
 #introContainer {
-  height: 100vh;
-  padding: 5rem 10rem;
+  padding: 5rem 10rem 5rem 10rem;
   display: flex;
   justify-content: space-between;
 }
@@ -28,7 +27,7 @@
   filter: drop-shadow(-1px 8px 4px #ff5b2e);
 }
 
-img {
+#displayImg {
   width: 25rem;
   height: 31rem;
   object-fit: cover;
@@ -36,7 +35,7 @@ img {
   filter: blur(2px);
 }
 
-img:hover {
+#displayImg:hover {
   filter: blur();
   transform: translateX(-10px);
 }

@@ -47,7 +47,7 @@ TUSHAR DHANKHAR`}
         <button id="getInTouch" onClick={() => setOpenModal(true)}>Get In Touch</button>
       </div>
       <div id="imageContainer">
-        <img src={require("../../assests/zoom_dp.jpg")} alt=""></img>
+        <img id="displayImg" src={require("../../assests/zoom_dp.jpg")} alt=""></img>
       </div>
       <BasicModal openModal={openModal} handleClose={handleClose}>
         <ContactForm />
