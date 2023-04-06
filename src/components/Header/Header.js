@@ -11,11 +11,11 @@ export default function Header() {
       <div id="logoContainer">Tushar's Portfolio</div>
       <div className="flexClass">
         <ul id="ulBigScreen">
-          <li onClick={() => alert("about")}>About</li>
-          <li>Skills</li>
-          <li>Experience</li>
-          <li>Project</li>
-          <li>Contact</li>
+          <li id="list" onClick={() => alert("about")}>About</li>
+          <li id="list">Skills</li>
+          <li id="list">Experience</li>
+          <li id="list">Project</li>
+          <li id="list">Contact</li>
         </ul>
         <a
           target="_blank"
@@ -32,11 +32,11 @@ export default function Header() {
     {menuDropdown && (
       <div id="dropdown">
         <ul id="ulSmallScreen">
-          <li>About</li>
-          <li>Skills</li>
-          <li>Experience</li>
-          <li>Project</li>
-          <li>Contact</li>
+          <li id="list">About</li>
+          <li id="list">Skills</li>
+          <li id="list">Experience</li>
+          <li id="list">Project</li>
+          <li id="list">Contact</li>
           <a
           target="_blank"
           rel="noreferrer"

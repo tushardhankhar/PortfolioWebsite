@@ -1,0 +1,91 @@
+#experienceContainer {
+  padding: 5rem 15rem 5rem 15rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+#horizontalLine {
+  border-top: 5px solid #ff5b2e;
+  width: 30%;
+}
+
+#experienceHeadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#experienceHeading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  color: #000958;
+}
+
+#companyName {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  color: #000958;
+  padding: 1rem;
+  border-left: 4px solid #000958;
+  cursor: pointer;
+}
+
+#companyName:hover {
+  background-color: rgb(221 189 155 / 50%);
+}
+
+#activeCompanyName {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  color: #ff5b2e;
+  padding: 1rem;
+  border-left: 4px solid #ff5b2e;
+  background-color: rgb(221 189 155 / 50%);
+  cursor: pointer;
+}
+
+#companyDescriptionContainer {
+  width: 60%;
+}
+
+#companyLink {
+    text-decoration: none;
+    color: #ff5b2e;
+  }
+
+#companyHeading {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+#descriptionPointsContainer {
+  display: flex;
+  margin: 0.5rem;
+  width: 100%;
+  gap: 1rem;
+}
+
+#descriptionPoints {
+  list-style-type: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #5e6085;
+}

@@ -4,6 +4,7 @@ import IntroContainer from "../IntroContainer/IntroContainer";
 import SideBar from "../SideBar/SideBar";
 import "./Dashboard.css"
 import AboutMe from "../AboutMe/AboutMe";
+import Experience from "../Experience/Experience";
 
 export default function Dashboard() {
   return (
@@ -11,6 +12,7 @@ export default function Dashboard() {
       <Header />
       <IntroContainer />
       <AboutMe />
+      <Experience />
       <div id="sideBar">
         <SideBar />
       </div>

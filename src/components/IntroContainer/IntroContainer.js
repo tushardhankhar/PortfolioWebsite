@@ -33,7 +33,7 @@ TUSHAR DHANKHAR`}
         <div id="introText">
           I'm a New Delhi-based software engineer who specializes in building
           (and occasionally designing) exceptional digital experiences.
-          Currently, I'm an engineer at{" "}
+          Currently, I'm an engineer at
           <a
             href="https://appdeskservices.com/"
             target="_blank"
@@ -41,7 +41,7 @@ TUSHAR DHANKHAR`}
             id="companyAnchor"
           >
             Appdesk Services
-          </a>{" "}
+          </a>
           focused on building Progressive Web Apps on ReactJS.
         </div>
         <button id="getInTouch" onClick={() => setOpenModal(true)}>Get In Touch</button>
