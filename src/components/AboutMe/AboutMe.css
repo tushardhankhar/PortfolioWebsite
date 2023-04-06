@@ -12,11 +12,12 @@
 
 #aboutHeading {
   font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 58px;
-  color: #060606;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #000958;
 }
 
 #aboutContentContainer {
