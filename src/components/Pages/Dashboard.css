@@ -1,7 +1,7 @@
 #sideBar{
     position: sticky;
-    bottom: 0%;
     width: 100px;
+    bottom: 0;
 }
 
 #dashboardContainer{

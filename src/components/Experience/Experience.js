@@ -43,7 +43,7 @@ export default function Experience() {
                     @ {val.company}
                   </a>
                 </div>
-                <div> {val.duration} </div>
+                <div style={{marginBottom : 20}}> {val.duration} </div>
 
                 {val.description.map((val1) => {
                   return (
