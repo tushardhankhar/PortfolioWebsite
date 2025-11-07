@@ -1,10 +1,22 @@
 export const data = [
+   {
+    id: 0,
+    company: "Viamedia AI",
+    websiteLink: "https://viamedia.ai/",
+    position: "Software Development Engineer",
+    duration: "Nov 2024 - Present",
+    description: [
+      "Developed and deployed frontend interfaces, integrating seamlessly with Web APIs and microservices,adhering strictly to client-specified wireframes.",
+      "Responsible for maintaining and updating existing project based on client requirements.",
+      "Assisted in the integration of Mapbox, enabling advanced mapping features and achieving significant cost savings upto 85%.",
+    ],
+  },
   {
     id: 1,
     company: "Appdesk Services",
     websiteLink: "https://appdeskservices.com/",
     position: "Software Development Engineer",
-    duration: "Nov 2021 - Present",
+    duration: "Nov 2021 - Aug 2024",
     description: [
       "Designed and developed scalable applications as per requirements using React, Styled Components.",
       "Participating in requirement gathering and analysis, delivering multiple UI modules and features, following Agile methodologies.",
